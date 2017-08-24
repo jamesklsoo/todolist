@@ -38,6 +38,8 @@ gem 'jbuilder', '~> 2.5'
 
 # User authentication
 gem 'devise'
+gem 'activeadmin', github: 'activeadmin'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 
 # Avatar photo
 gem 'gravtastic'
@@ -48,6 +50,7 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'rspec-rails', '~> 3.5'
 end
 
 group :development do
